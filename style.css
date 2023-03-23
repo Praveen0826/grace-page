@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300;400&family=Rubik+Glitch&display=swap'); 
+ body{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+  
+    top: 0;
+    
+}
+.header{
+    background-color: black;
+    width: 100%;
+}
+.center{
+ display: flex;
+ justify-content: center;
+}
+.coming{
+    color: #5ce1e6;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-family: 'Rubik Glitch', cursive;
+}
+.but{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+ 
+}
+.button{
+    background-color:transparent; 
+  color: #5ce1e6;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+ 
+  font-size: 16px;
+
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 5px 10px;
+  transition: 0.3s ease;
+  border: 2px solid #5ce1e6;
+    
+}
+.button:hover{
+
+    transition: 0.3s ease;
+        
+        background-color: #5ce1e6;
+        color: #000;
+}
+
+.main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
